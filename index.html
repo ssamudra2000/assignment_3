@@ -7,10 +7,14 @@
 <body background="calc.jpg">
     <h1 class="heading">Calculator</h1>
     <div class="container">
+        //https://www.w3schools.com/tags/att_input_placeholder.asp
+        //https://www.w3schools.com/jsref/event_onclick.asp
         <input type="number" id="num1" placeholder="Enter first number" onclick="switchInput('num1')" />
         <input type="number" id="num2" placeholder="Enter second number" onclick="switchInput('num2')" />
         <div id="result"></div>
         <hr>
+        //https://getbootstrap.com/docs/5.0/layout/grid/
+        // i learned div in bootstrap but i havent created the whole pahge with bootstrap
         <div class="keypad">
             <button onclick="addToInput(1)">1</button>
             <button onclick="addToInput(2)">2</button>

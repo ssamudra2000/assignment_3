@@ -3,7 +3,11 @@
 var selectedInput = "num1"; 
 
 
-
+    // https://www.geeksforgeeks.org/javascript-number-parsefloat-method/ 
+    // entering the values with clicking numbers in calculator getting in only first num1 val textbox
+    // then i checked from chatgpt used for reference for differentiating the values of num1 and num2
+    // then i learned and created switchinput function in my js
+    // i learned much from this after connecting the html and js for num1 and num2.
     function addToInput(number) {
       var input = document.getElementById(selectedInput);
       input.value += number;
